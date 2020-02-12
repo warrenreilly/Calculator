@@ -1,0 +1,114 @@
+.h11 {
+    font-family: Courier New;
+    font-size: 1em;
+    color: orange; 
+    text-align: center;
+}
+
+.operator {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.div1 {
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.div2 {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.div3 {
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.div4 {
+    text-align: center;
+    padding: 10px 25px;
+
+}
+
+
+.operator {
+    color: orange;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: gray;
+}
+
+.key {
+    color: orange;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: gray;
+
+}
+
+.key2 {
+    color: orange;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: gray;
+}
+
+.key3 {
+    color: orange;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: gray;
+    
+}
+
+.display {
+    text-align: center;
+    width: auto;
+
+
+}
+
+.screen {
+    background-color: black;
+    color: white;
+    padding: 20px 135px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
+.gradient {
+    background-image:
+      linear-gradient(
+        rgb(92, 96, 100), #ffb780
+      );
+      height: 100vh;
+  }
+
+  #clrbutton {
+    align-content: center;
+    color: orange;
+    padding: 10px 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: gray;
+  }
+
+  .div5 {
+    text-align: center;
+    padding: 10px 25px;
+
+}

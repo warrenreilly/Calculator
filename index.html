@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The World's Best Calculator</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<div class="gradient">
+  <div>
+
+    <h1 class="h11"> This Calculator works like any other you may have used before.</h1> 
+
+    <div class="display">
+
+        <p class="screen" id="topScreen"></p>
+        <br/>
+           <p class="screen" id="screen" onclick="clrbutton()"></p>
+    </div> 
+  
+
+      <div class="div1">
+
+        <button onclick="operator('+')" class="operator">+
+        </button>
+        <button onclick="operator('-')" class="operator">-
+        </button>
+        <button onclick="operator('*')"class="operator">*</button>
+        <button onclick="operator('/')" class="operator">÷
+        </button> 
+      </div>
+
+      <div class="div2">
+
+        <button onclick="buttonpress(9)" class="key">9</button>
+        <button onclick="buttonpress(8)" class="key">8</button>
+        <button onclick="buttonpress(7)" class="key">7</button> 
+        <button onclick="buttonpress(6)" class="key">6</button>
+      </div>
+
+      <div class="div3">
+
+        <button onclick="buttonpress(5)" class="key2">5</button>
+        <button onclick="buttonpress(4)" class="key2">4</button>
+        <button onclick="buttonpress(3)" class="key2">3</button>
+        <button onclick="buttonpress(2)" class="key2">2</button>
+      </div>
+
+      <div class="div4">
+
+        <button onclick="buttonpress(1)" class="key3">1</button>
+        <button onclick="buttonpress(0 )" class="key3">0</button>
+        <button onclick="equals()" class="key3">=</button>
+        <button  onclick="buttonpress('.')" class="key3">.</button>
+       
+      </div>
+
+      <div class="div5">
+
+            <button id="clrbutton" onclick="clrbutton(true);">CLEAR</button>
+      </div>
+  
+    </div>
+    </div>
+  </div>
+</div>
+</div> 
+</html>
